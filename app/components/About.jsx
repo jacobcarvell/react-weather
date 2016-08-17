@@ -1,11 +1,13 @@
 var React = require('react');
+var {Link} = require('react-router');
 
 var About = (props) => {
     return (
-      <div>
-        <h3>About</h3>
+      <div className="text-center">
+        <h1>About</h1>
         <p>This app was made as part of the complete react developer course. Not very interesting.</p>
-    </div>
+        <p>Find the source on github <a href="https://github.com/jacobcarvell/react-weather">here</a>.</p>
+      </div>
     )
 };
 
