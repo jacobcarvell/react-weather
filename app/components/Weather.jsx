@@ -41,7 +41,6 @@ var Weather = React.createClass({
     }
   },
   componentWillReceiveProps: function (newProps) {
-    debugger;
     var location = newProps.location.query.location;
 
     if (location && location.length > 2) {

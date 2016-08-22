@@ -11,7 +11,6 @@ var Nav = React.createClass({
     if (location.length > 2) {
       this.refs.location.value = '';
       window.location.hash = '#/?location=' + encodedLocation;
-      debugger;
     }
 
   },
